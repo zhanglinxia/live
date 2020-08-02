@@ -1,2 +1,0 @@
-<?php
-$ws = new WebSocketServer();

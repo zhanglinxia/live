@@ -2,6 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/advanced/common/sdk/swoole_servers/swoole-ide-helper" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/basic/swoole-ide-helper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/swoole-ide-helper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/swoole_servers/swoole-ide-helper" vcs="Git" />
   </component>
 </project>

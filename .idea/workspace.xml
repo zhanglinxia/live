@@ -1,7 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="25906213-0799-46db-a6d4-cc34358764d7" name="Default Changelist" comment="" />
+    <list default="true" id="25906213-0799-46db-a6d4-cc34358764d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/.bowerrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/Vagrantfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/assets/AppAsset.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/codeception.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/commands/HelloController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/config/console.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/config/db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/config/params.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/config/test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/config/test_db.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/config/web.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/controllers/SiteController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/mail/layouts/html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/models/ContactForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/models/LoginForm.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/models/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/requirements.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/runtime/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/COROUTINE/a_go.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/COROUTINE/redis.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/HTTP/data/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/HTTP/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/MEMORY/table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/PROCESS/process.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/TCP/client/tcp_client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/TCP/server/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/UDP/client/client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/UDP/server/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/WebSocket/WebSocketServer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/WebSocket/server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/http_server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/swoole_servers/ws_server.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_data/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_output/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_support/AcceptanceTester.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_support/FunctionalTester.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/_support/UnitTester.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance.suite.yml.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance/AboutCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance/ContactCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance/HomeCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance/LoginCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/acceptance/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/bin/yii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/bin/yii.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/functional.suite.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/functional/ContactFormCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/functional/LoginFormCest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/functional/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/unit.suite.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/unit/_bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/unit/models/ContactFormTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/unit/models/LoginFormTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/tests/unit/models/UserTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/config/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/config/vagrant-local.example.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/nginx/app.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/nginx/log/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/provision/always-as-root.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/provision/once-as-root.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/vagrant/provision/once-as-vagrant.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/layouts/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/error.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/views/site/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/web/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/web/assets/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/web/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/web/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/web/index-test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/web/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/web/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/widgets/Alert.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/yii" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/yii.bat" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,7 +233,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/basic/swoole_servers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basic/console/controllers" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/basic/swoole_servers" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -140,17 +253,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596176727664</updated>
-      <workItem from="1596176729113" duration="1638000" />
+      <workItem from="1596176729113" duration="7550000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1596183175213">
+    <state x="1955" y="260" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596191845079">
+      <screen x="1280" y="-89" width="1920" height="1080" />
+    </state>
+    <state x="1955" y="260" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.800/1280.-89.1920.1080@1280.-89.1920.1080" timestamp="1596191845079" />
+    <state x="1888" y="131" key="NewPhpClassDialog" timestamp="1596192367970">
+      <screen x="1280" y="-89" width="1920" height="1080" />
+    </state>
+    <state x="1888" y="131" key="NewPhpClassDialog/0.0.1280.800/1280.-89.1920.1080@1280.-89.1920.1080" timestamp="1596192367970" />
+    <state x="456" y="183" key="NewPhpClassDialog/0.0.1440.900@0.0.1440.900" timestamp="1596184451178" />
+    <state x="539" y="380" key="NewPhpFileDialog" timestamp="1596184455583">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="539" y="380" key="NewPhpFileDialog/0.0.1440.900@0.0.1440.900" timestamp="1596184455583" />
+    <state x="1841" y="157" width="798" height="588" key="find.popup" timestamp="1596188299242">
+      <screen x="1280" y="-89" width="1920" height="1080" />
+    </state>
+    <state x="1841" y="157" width="798" height="588" key="find.popup/0.0.1280.800/1280.-89.1920.1080@1280.-89.1920.1080" timestamp="1596188299242" />
     <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1596183175213" />
+    <state x="1905" y="152" width="670" height="676" key="search.everywhere.popup" timestamp="1596188386895">
+      <screen x="1280" y="-89" width="1920" height="1080" />
+    </state>
+    <state x="1905" y="152" width="670" height="676" key="search.everywhere.popup/0.0.1280.800/1280.-89.1920.1080@1280.-89.1920.1080" timestamp="1596188386895" />
   </component>
 </project>

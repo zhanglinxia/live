@@ -61,6 +61,7 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
+        error_log(json_encode($_GET));
         return $this->render('index');
     }
 
@@ -124,5 +125,11 @@ class SiteController extends Controller
     public function actionAbout()
     {
         return $this->render('about');
+    }
+
+    public function actionData()
+    {
+        $data = ['1',2,3,4];
+
     }
 }
