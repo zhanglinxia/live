@@ -19,16 +19,7 @@ class LoginForm extends Model
 
     private $_user = false;
 
-    /**
-     * @inheritdoc
-     */
-    public function attributeLabels()
-    {
-        return [
-            'username' => '用户名',
-            'password' => '密码'
-        ];
-    }
+
     /**
      * @return array the validation rules.
      */
@@ -57,7 +48,7 @@ class LoginForm extends Model
             $user = $this->getUser();
 
             if (!$user || !$user->validatePassword($this->password)) {
-                $this->addError($attribute, '用户名或密码不正确.');
+                $this->addError($attribute, 'Incorrect username or password.');
             }
         }
     }

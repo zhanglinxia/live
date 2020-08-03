@@ -33,7 +33,7 @@ class LoginFormCest
     {
         $I->submitForm('#login-form', []);
         $I->expectTo('see validations errors');
-        $I->see('用户名 cannot be blank.');
+        $I->see('Username cannot be blank.');
         $I->see('Password cannot be blank.');
     }
 

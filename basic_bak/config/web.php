@@ -6,7 +6,6 @@ $db = require __DIR__ . '/db.php';
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
-    'language'=>'zh-CN',
     'bootstrap' => ['log'],
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
@@ -15,7 +14,7 @@ $config = [
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'KHH-sEDNt29RnqlAq-DaAjEEkBDDMKYV',
+            'cookieValidationKey' => 'y9Vt4bqIXHFGA4ruqitPpf1_LDzq-cGd',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -44,9 +43,6 @@ $config = [
             ],
         ],
         'db' => $db,
-        'assetManager' => [
-            'basePath' => __DIR__ . '/../web/assets',
-        ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,

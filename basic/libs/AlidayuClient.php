@@ -7,19 +7,28 @@ use yii\db\Exception;
 
 class AlidayuClient
 {
+    //通用参数
     private $product = 'Dysmsapi';
     private $version = '2017-05-25';
     private $host = 'dysmsapi.aliyuncs.com';
     private $regionId = 'cn-hangzhou';
     private $accessKeyId = 'LTAI4G8vcxt8kdi4HHBqkenP';
     private $accessSecret = 'QKP8LEhtlYxE03hAKIIjIjgENyh57B';
+
+    //业务参数：默认值
     private $method = 'POST';
     private $action = 'SendSms';
+
+    //业务参数
     private $phone = null;
     private $sign = null;
     private $template_code = null;
     private $template_params = null;
     private $_rpc = null;
+
+    //格式化结果:code=1表示发送成功 2表示发送失败
+    private $_code = null;
+    private $_message = null;
     public function __construct($phone,$sign,$template_code)
     {
         //初始化类参数
@@ -73,19 +82,30 @@ class AlidayuClient
             throw $e;
         }
     }
+
     /**
-     * 解析短信返回结果
+     * 发送结果code
+     * @param $code
      */
-    public function parseResult($result)
-    {
-        $result = $result->toArray();
-        if(strtoupper($result['Code']) != 'OK'){
-            error_log(json_encode($result));
-            throw new \Exception($result['Message']);
-        }else{
-            return true;
-        }
+    private function setCode($code){
+        $this->_code = intval($code);
     }
+    public function getCode()
+    {
+        return $this->_code;
+    }
+
+    /**
+     * 发送结果信息
+     * @param $message
+     */
+    private function setMessage($message){
+        $this->_message = trim($message);
+    }
+    public function getMessage(){
+        return $this->_message;
+    }
+
     /**
      * 电话号码
      * @param $phone
@@ -104,7 +124,7 @@ class AlidayuClient
     }
 
     /**
-     * 设置签名
+     * 签名
      * @param $sign
      */
     public function setSign($sign)
@@ -116,7 +136,7 @@ class AlidayuClient
     }
 
     /**
-     * 设置模版
+     * 短信模版
      * @param $code
      */
     public function setTemplateCode($code)
@@ -129,7 +149,7 @@ class AlidayuClient
     }
 
     /**
-     * 设置访问方法
+     * 访问方法
      */
     public function setMethod($method)
     {
@@ -144,7 +164,7 @@ class AlidayuClient
     }
 
     /**
-     * 设置访问名称
+     * 访问名称
      */
     public function setAction($action)
     {
@@ -173,5 +193,28 @@ class AlidayuClient
     {
         $params = !empty($this->template_params) ? json_decode($this->template_params, true) : null;
         return $params;
+    }
+
+    /**
+     * 解析结果
+     */
+    public function parseResult($result)
+    {
+        $result = $result->toArray();
+        if(strtoupper($result['Code']) == 'OK'){
+            $this->setCode(1);
+        }else{
+            $this->setCode(2);
+        }
+        $this->setMessage($result['Message']);
+        return $this->getCode();
+    }
+    public function __toString()
+    {
+        $obj_str = [
+            'code' => $this->getCode(),
+            'message' => $this->getMessage()
+        ];
+        return json_encode($obj_str);
     }
 }
