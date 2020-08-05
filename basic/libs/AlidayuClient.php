@@ -24,8 +24,8 @@ class AlidayuClient
     private $sign = null;
     private $template_code = null;
     private $template_params = null;
-    private $_rpc = null;
 
+    private $_rpc = null;
     //格式化结果:code=1表示发送成功 2表示发送失败
     private $_code = null;
     private $_message = null;
