@@ -1,2 +1,6 @@
 *
 !.gitignore
+!js
+!js/*
+!/js/live-out
+!/js/live-out/*
