@@ -12,8 +12,8 @@ class AlidayuClient
     private $version = '2017-05-25';
     private $host = 'dysmsapi.aliyuncs.com';
     private $regionId = 'cn-hangzhou';
-    private $accessKeyId = 'LTAI4G8vcxt8kdi4HHBqkenP';
-    private $accessSecret = 'QKP8LEhtlYxE03hAKIIjIjgENyh57B';
+    private $accessKeyId = '';
+    private $accessSecret = '';
 
     //业务参数：默认值
     private $method = 'POST';
